@@ -48,3 +48,16 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+p {
+  font-family: 'Vollkorn SC', serif;
+}
+
+.center  {
+  text-align: center;
+}
+
+.strong  {
+  font-weight: 700;
+  font-size: 150px;
+}
