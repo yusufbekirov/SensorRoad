@@ -55,9 +55,63 @@ p {
 
 .center  {
   text-align: center;
+  margin: auto;
+  padding: 10%;
 }
 
 .strong {
   font-weight: 700;
   font-size: 150px;
+}
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url("sensors.JPG");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("connectivity.jpg");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("sunset.gif");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grey {
+  background-color: #404040;;
+}
+
+.white {
+  background-color: #FFFFFF;;
 }
