@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Sensor Road</title>
+  <title></title>
   <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="custom.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
@@ -27,13 +27,20 @@
       font-size: 50px;
     }
 
+    h3 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      color: grey;
+      font-size: 50px;
+    }
+
   </style>
 
   <script src="scrollreveal.js"></script>
   <script type="text/javascript" src="javascript.js"></script>
 
   <script>
-     window.sr = ScrollReveal({viewFactor: 1.0,});
+     window.sr = ScrollReveal({viewFactor: .9,});
    </script>
 
    <style>
@@ -59,9 +66,15 @@
         </div>
 
         <div class="col-lg-5 col-md-5 col-sm-5">
+<<<<<<< current
           <li class="lir"><a href="contact.html">Contact</a></li>
           <li class="lir"><a href="mission.html">Mission</a></li>
           <li class="lir"><a href="services.html">Services</a></li>
+=======
+          <li class="lir"><a href="#">Contact</a></li>
+          <li class="lir"><a href="#">Mission</a></li>
+          <li class="lir"><a href="#">Services</a></li>
+>>>>>>> before discard
         </div>
 
       </div>
@@ -145,10 +158,11 @@
 
   <div class="row grey ">
 
-    <div class="col-lg-12 col-md-12 col-sm-12 center">
+    <div class="col-lg-12 col-md-12 col-sm-12 center2">
       <h2 class="">Hello</h2>
       <h2 class="">Welcome to Sensor Road</h2>
-      <img src="Eclipse.gif" alt="">
+      <h2 class="">ON<a class="btn btn-5"><h3>Ready?</h3></a>OFF</h2>
+
     </div>
 
   </div>
@@ -157,16 +171,9 @@
   </div>
 
   <script>
-      sr.reveal('.center', { duration: 2500 }, 1500);
+      sr.reveal('.center', { duration: 2000 }, 1000);
+      sr.reveal('.center2', { duration: 2000 }, 1000);
     </script>
-
-    <script>
-    setTimeout(function() {
-window.location.href = "about.html";
-}, 10000);
-      </script>
-
-
 
 </body>
 
