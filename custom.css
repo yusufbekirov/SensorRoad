@@ -59,6 +59,12 @@ p {
   padding: 10%;
 }
 
+.center2  {
+  text-align: center;
+  margin: auto;
+  padding: 5%;
+}
+
 .strong {
   font-weight: 700;
   font-size: 150px;
@@ -114,4 +120,8 @@ p {
 
 .white {
   background-color: #FFFFFF;;
+}
+
+.flag   {
+  background-image: linear-gradient(to right, #404040 0%, #f6c309 15%, #404040 50%, #404040 100%);
 }
