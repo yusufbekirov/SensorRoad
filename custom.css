@@ -143,3 +143,7 @@ p {
 .btn-5 {
   background-image: linear-gradient(to right, #404040 0%, #ffecd2 51%, #404040 100%);
 }
+
+h2 {
+  font-family: 'Vollkorn SC', serif;
+}
