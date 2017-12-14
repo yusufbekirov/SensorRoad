@@ -129,3 +129,7 @@ p {
 h2 {
   font-family: 'Roboto', sans-serif;
 }
+
+.products p{
+  font-size: 67.5%;
+}
