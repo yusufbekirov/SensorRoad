@@ -122,26 +122,8 @@ p {
   background-color: #FFFFFF;;
 }
 
-.btn {
-  flex: 1 1 auto;
-  margin: 10px;
-  padding: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 250% auto;
-  color: white;
- /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
-  box-shadow: 0 0 10px #eee;
-  border-radius: 10px;
-}
-
-.btn:hover {
-  background-position: right center; /* change the direction of the change here */
-}
-
-.btn-5 {
-  background-image: linear-gradient(to right, #404040 0%, #ffecd2 51%, #404040 100%);
+.flag   {
+  background-image: linear-gradient(to right, #404040 0%, #f6c309 15%, #404040 50%, #404040 100%);
 }
 
 h2 {
