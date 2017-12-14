@@ -125,3 +125,7 @@ p {
 .flag   {
   background-image: linear-gradient(to right, #404040 0%, #f6c309 15%, #404040 50%, #404040 100%);
 }
+
+h2 {
+  font-family: 'Vollkorn SC', serif;
+}
