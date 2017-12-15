@@ -163,12 +163,27 @@ p {
   background-size: cover;
 }
 
+.parallax6  {
+  /* The image used */
+  background-image: url("services.jpg");
+
+  /* Set a specific height */
+  min-height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
 .grey {
-  background-color: #404040;;
+  background-color: #404040;
 }
 
 .white {
-  background-color: #FFFFFF;;
+  background-color: #FFFFFF;
 }
 
 .flag   {
@@ -181,4 +196,13 @@ h2 {
 
 .milkwhite  {
   background-color: #F6F5F1;
+}
+
+
+.color  {
+  background-color: #404040;
+}
+.color:hover
+{
+        background:#f6c309;
 }
